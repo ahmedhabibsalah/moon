@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/media/imgs/objects/birds/img_537531.png" type="image/x-icon">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="buttons">
+            <div class="back">
+                BACK
+            </div>
+        </div>
+        <canvas id="GameArea"></canvas>
+        <div class="try-again-window">
+            <div class="inner-window">
+                <div class="text">
+                    <h1>You disappointed me, my friend</h1>
+                    <button id="tryAgain">Try Again</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="win-window">
+            <div class="inner-window">
+                <div class="text">
+                    <h1>The earth has been saved</h1>
+                    <button id="nextLevel">Next Level</button>
+                </div>
+            </div>
+        </div>
+        <div id="ground">
+        </div>
+    </div>
+
+    <script src="assets/js/Level.js"></script>
+    <script src="assets/js/Component.js"></script>
+    <script src="assets/js/Bird.js"></script>
+    <script src="assets/js/Pig.js"></script>
+    <script src="assets/js/Obstacle.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
